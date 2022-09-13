@@ -10,7 +10,7 @@ const requestHandler = (req, res) => {
         res.write('<body><form action="/message" method="POST"><input type="text" name="message"><button type="submit">Send</button></form></body>');
         res.write('<html>');
         return res.end();
-    }
+    } 
     if (url === '/message' && method === 'POST') {
         const body = [];
         req.on('data', (chunk) => {

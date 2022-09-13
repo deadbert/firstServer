@@ -1,0 +1,26 @@
+{
+  "name": "firstserver",
+  "version": "1.0.0",
+  "description": "first node server, learning node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadbert/firstServer.git"
+  },
+  "author": "Nick Spencer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deadbert/firstServer/issues"
+  },
+  "homepage": "https://github.com/deadbert/firstServer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
