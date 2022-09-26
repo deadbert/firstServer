@@ -12,6 +12,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(adminRoutes);
 
-app.use(shop)
+app.use(shopRoutes)
 
 app.listen(3000)
